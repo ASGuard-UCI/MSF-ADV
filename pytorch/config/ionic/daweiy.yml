@@ -1,0 +1,23 @@
+MBII_DATASET_LAB_DIR: null
+SIRFS_DIR: null
+
+# The mitsuba configurations
+MITSUBA_COMMAND : null
+MITSUBA_APPEND_PATH: null
+
+# The directory containing temporary files which can be safely deleted
+# Use the memory mapped file to maximize I/O speed
+TMP_DIR: '/dev/shm/ydawei/3dattack'
+
+TENSORBOARD_LOGDIR: '/n/fs/pvl/daweiy/Data/3dattack/tblogs'
+RENDER4CNN_WEIGHTS: '/n/fs/pvl/daweiy/Data/3dattack/model_weights/render4cnn.pth'
+SIBL_COMPUTED_SPH_COEFF: '/n/fs/pvl/daweiy/Data/3dattack/sibl_sph.bin'
+PASCAL3D_ROOT: '/n/fs/pvl/daweiy/Dataset/PASCAL3D+_release1.1'
+SYNTHETIC_OFFLINE_DIR: '/n/fs/pvl/daweiy/Data/3dattack/synthetic_offline'
+SHAPENET_DIR: '/n/fs/pvl/daweiy/Data/Dataset/ShapeNetCore2015v0'
+
+# FT_RENDER4CNN_WEIGHTS: '/n/fs/pvl/daweiy/Data/3dattack/model_weights/ryan_render.npy'
+# CLICKHERE_CNN_WEIGHTS: '/n/fs/pvl/daweiy/Data/3dattack/model_weights/ch_cnn.npy'
+SAVE_PATH: '/n/fs/pvl/daweiy/Data/3dattack/results'
+LOAD_PATH: '/n/fs/pvl/daweiy/Data/3dattack/data'
+

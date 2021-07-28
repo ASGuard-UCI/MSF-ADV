@@ -1,0 +1,19 @@
+MBII_DATASET_LAB_DIR: "/home/xiaocw/3D/3D_attack/SIRFS_release1.5/data/MIT-Berkeley-Laboratory" # Download from https://drive.google.com/file/d/0B4nuwEMaEsnmem4tdm93ZDVWRUE/view, there is a "data folder"
+SIRFS_LAB: "/home/xiaocw/3D/3D_attack/SIRFS_release1.5"
+# The mitsuba configurations
+MITSUBA_COMMAND : ['mitsuba', '-q']
+MITSUBA_APPEND_PATH:
+    PATH: '/home/xiaocw/mitsuba-shapenet/dist'
+    LD_LIBRARY_PATH: '/home/xiaocw/mitsuba-shapenet/dist'
+
+TENSORBOARD_LOGDIR: '/home/xiaocw/tensorboard_logs'
+RENDER4CNN_WEIGHTS: '/home/xiaocw/3D/3D_attack/pytorch/model_weights/render4cnn.pth'
+FT_RENDER4CNN_WEIGHTS: '/home/xiaocw/3D/3D_attack/pytorch/model_weights/ryan_render.npy'
+CLICKHERE_CNN_WEIGHTS: '/home/xiaocw/3D/3D_attack/pytrochmodel_weights/ch_cnn.npy'
+IMAGE_PATH: '/home/xiaocw/3D/RenderForCNN/demo_view/aeroplane_image.jpg'
+SHAPENET_DIR: '/home/xiaocw/3D/RenderForCNN/datasets/shapenetcore/'
+VIEWPOINT_PATH: '/home/xiaocw/3D/viewpoints/'
+PASCAL3D_ROOT: '/home/xiaocw/pw7/3D/pascal3d/'
+TMP_DIR : "home/xiaocw/3D/3D_attack/"
+SIBL_COMPUTED_SPH_COEFF: '/home/xiaocw/3D/3D_attack/data/sibl_sph.bin'
+SYNTHETIC_OFFLINE_DIR: '../data/synthetic_image/'

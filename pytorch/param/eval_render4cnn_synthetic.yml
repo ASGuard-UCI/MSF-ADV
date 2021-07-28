@@ -1,0 +1,11 @@
+network:
+    name: Render4CNN
+    kwargs: {'weights' : 'lua'}
+
+dataset:
+    name: SyntheticOffline
+    kwargs: {'split': 'valid_easy'}
+
+evaluator:
+    name: ViewpointEstimation
+    kwargs: {'gpu' : True}

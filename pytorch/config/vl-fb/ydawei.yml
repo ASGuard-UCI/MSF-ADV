@@ -1,0 +1,22 @@
+MBII_DATASET_LAB_DIR: "/home/ydawei/Dataset/MBII/MIT-Berkeley-Laboratory"
+
+# The mitsuba configurations
+MITSUBA_COMMAND : ["mitsuba"]
+MITSUBA_APPEND_PATH:
+  PATH: "/home/ydawei/opt/mitsuba-shapenet-0.5.0"
+  LD_LIBRARY_PATH: "/home/ydawei/opt/mitsuba-shapenet-0.5.0"
+
+# The directory containing temporary files which can be safely deleted
+# Use the memory mapped file to maximize I/O speed
+TMP_DIR: '/dev/shm/ydawei/3dattack'
+
+# TENSORBOARD_LOGDIR: '/home/ydawei/Data/3dattack/tblogs'
+RENDER4CNN_WEIGHTS: '/home/ydawei/Data/3dattack/model_weights/render4cnn.pth'
+SIBL_COMPUTED_SPH_COEFF: '/home/ydawei/Data/3dattack/sibl_sph.bin'
+PASCAL3D_ROOT: '/home/ydawei/Dataset/PASCAL3D+_release1.1'
+SYNTHETIC_OFFLINE_DIR: '/scratch/jiadeng_flux/ydawei/3dattack/synthetic_offline'
+# FT_RENDER4CNN_WEIGHTS: '/home/ydawei/Data/3dattack/model_weights/ryan_render.npy'
+# CLICKHERE_CNN_WEIGHTS: '/home/ydawei/Data/3dattack/model_weights/ch_cnn.npy'
+#
+SAVE_PATH: '/home/ydawei/Data/3dattack/results'
+LOAD_PATH: '/home/ydawei/Data/3dattack/data'
