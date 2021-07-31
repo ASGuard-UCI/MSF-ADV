@@ -3,7 +3,14 @@ MSF-ADV is a novel physical-world adversarial attack method, which can fool the 
 in the victim autonomous vehicle (AV) to fail in detecting a front obstacle and thus
 crash into it.
 
-## Parper
+## Paper
+
+[IEEE S&P 2021](https://www.ieee-security.org/TC/SP2021/index.html) Invisible for both Camera and LiDAR: Security of Multi-Sensor Fusion based Perception in Autonomous Driving Under Physical-World Attacks
+
+Yulong Cao*, Ningfei Wang*, Chaowei Xiao*, Dawei Yang* (co-first authors), Jin Fang, Ruigang Yang, Qi Alfred Chen, Mingyan Liu, and Bo Li
+
+To appear in the 42nd IEEE Symposium on Security and Privacy (IEEE S&P), May 2021 (Acceptance rate 12.0% = 117/972)
+
 
 Invisible for both Camera and LiDAR: Security of Multi-Sensor Fusion based Perception in Autonomous Driving Under Physical-World Attacks
 
