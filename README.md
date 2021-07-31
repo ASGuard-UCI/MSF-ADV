@@ -5,24 +5,19 @@ crash into it.
 
 ## Paper
 
-[IEEE S&P 2021](https://www.ieee-security.org/TC/SP2021/index.html) Invisible for both Camera and LiDAR: Security of Multi-Sensor Fusion based Perception in Autonomous Driving Under Physical-World Attacks
-
-Yulong Cao*, Ningfei Wang*, Chaowei Xiao*, Dawei Yang* (co-first authors), Jin Fang, Ruigang Yang, Qi Alfred Chen, Mingyan Liu, and Bo Li
-
-To appear in the 42nd IEEE Symposium on Security and Privacy (IEEE S&P), May 2021 (Acceptance rate 12.0% = 117/972)
-
-
-Invisible for both Camera and LiDAR: Security of Multi-Sensor Fusion based Perception in Autonomous Driving Under Physical-World Attacks
+[[IEEE S&P 2021]](https://www.ieee-security.org/TC/SP2021/index.html) Invisible for both Camera and LiDAR: Security of Multi-Sensor Fusion based Perception in Autonomous Driving Under Physical-World Attacks
 
 Author: Yulong Cao*, Ningfei Wang*, Chaowei Xiao*, Dawei Yang*, Jin Fang, Ruigang Yang, Qi Alfred Chen, Mingyan Liu, Bo Li (*Co-first authors)
+
+Paper: https://www.computer.org/csdl/proceedings-article/sp/2021/893400b302/1t0x9btzenu
+
+ArXiv version: https://arxiv.org/abs/2106.09249
 
 Website: https://sites.google.com/view/cav-sec/msf-adv
 
 ![title](imgs/framework.png)
 
-This is the code for the paper [Invisible for both Camera and LiDAR: Security of Multi-Sensor Fusion based Perception in Autonomous Driving Under Physical-World Attacks](https://www.computer.org/csdl/proceedings-article/sp/2021/893400b302/1t0x9btzenu) accepted by IEEE S&P 2021.
 
-The arxiv link to the paper: https://arxiv.org/abs/2106.09249
 
 ## Installation
 Install the required environments with the requirements.txt file using [ANACONDA](https://www.anaconda.com/products/individual)
