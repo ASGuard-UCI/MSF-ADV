@@ -3,31 +3,29 @@ MSF-ADV is a novel physical-world adversarial attack method, which can fool the 
 in the victim autonomous vehicle (AV) to fail in detecting a front obstacle and thus
 crash into it.
 
-## Paper
+## Parper
 
-[[IEEE S&P 2021]](https://www.ieee-security.org/TC/SP2021/index.html) Invisible for both Camera and LiDAR: Security of Multi-Sensor Fusion based Perception in Autonomous Driving Under Physical-World Attacks
+Invisible for both Camera and LiDAR: Security of Multi-Sensor Fusion based Perception in Autonomous Driving Under Physical-World Attacks
 
 Author: Yulong Cao*, Ningfei Wang*, Chaowei Xiao*, Dawei Yang*, Jin Fang, Ruigang Yang, Qi Alfred Chen, Mingyan Liu, Bo Li (*Co-first authors)
-
-Paper: https://www.computer.org/csdl/proceedings-article/sp/2021/893400b302/1t0x9btzenu
-
-ArXiv version: https://arxiv.org/abs/2106.09249
 
 Website: https://sites.google.com/view/cav-sec/msf-adv
 
 ![title](imgs/framework.png)
 
+This is the code for the paper [Invisible for both Camera and LiDAR: Security of Multi-Sensor Fusion based Perception in Autonomous Driving Under Physical-World Attacks](https://www.computer.org/csdl/proceedings-article/sp/2021/893400b302/1t0x9btzenu) accepted by IEEE S&P 2021.
 
+The arxiv link to the paper: https://arxiv.org/abs/2106.09249
 
 ## Installation
 Install the required environments with the requirements.txt file using [ANACONDA](https://www.anaconda.com/products/individual)
 ```
-$ conda create --name <env> --file requirements.txt
+$ conda env create -f requirements.yml
 ```
 
 ## Command line
 ### Download the target model
-You can find the model through the [official Baidu Apollo GitHub](https://github.com/ApolloAuto/apollo) and [YOLO website](https://pjreddie.com/darknet/yolo/).
+You can find the model through the [official Baidu Apollo GitHub](https://github.com/ApolloAuto/apollo) and [YOLO website](https://pjreddie.com/darknet/yolo/). Or you can download the model [here](https://drive.google.com/file/d/17Eg1ySmucr1UQfye5wxAgGpv6VN5R0FP/view?usp=sharing) and then unzip it to `./data` folder.
 
 ### Generating the adversarial object
 
@@ -55,8 +53,9 @@ You can find the model through the [official Baidu Apollo GitHub](https://github
  ### Evaluation
  The source code for evaluating the generated adversarial 3D object are in evaluation folder.
 
-# Citation
- If you use the code or find this project helpful, please consider citing our paper.
+## Citation
+ If you use this code for your research, please cite our papers.
+
 ```
 @inproceedings{sp:2021:ningfei:msf-adv,
   title={{Invisible for both Camera and LiDAR: Security of Multi-Sensor Fusion based Perception in Autonomous Driving Under Physical World Attacks}},
@@ -66,3 +65,16 @@ You can find the model through the [official Baidu Apollo GitHub](https://github
   month = {May}
 }
 ```
+```
+@inproceedings{xiao2019meshadv,
+  title={{MeshAdv: Adversarial Meshes for Visual Recognition}},
+  author={Xiao, Chaowei and Yang, Dawei and Li, Bo and Deng, Jia and Liu, Mingyan},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={6898--6907},
+  year={2019}
+}
+```
+
+## Acknowledgments
+Our code is inspired by [Towards Robust LiDAR-based Perception in Autonomous Driving: General Black-box Adversarial Sensor Attack and Countermeasures](https://www.usenix.org/system/files/sec20_slides_sun.pdf
+), [Mitsuba Physically Based Renderer](https://github.com/mitsuba-renderer), [neural_renderer](https://github.com/hiroharu-kato/neural_renderer), [pytorch-caffe](https://github.com/wwwanghao/caffe2pytorch), and [PerceptualSimilarity](https://github.com/richzhang/PerceptualSimilarity).
